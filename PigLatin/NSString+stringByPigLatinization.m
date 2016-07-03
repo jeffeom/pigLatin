@@ -14,16 +14,10 @@
     
     NSArray *words = [self componentsSeparatedByString:@" "];
     NSCharacterSet *vowels = [NSCharacterSet characterSetWithCharactersInString:@"aeiou"];
-    NSString *substring;
-    // prints i
     NSString *substringFirst;
-    // prints ips
     NSString *substringLast;
-    // prints ch
     NSString *pigLatinString;
-    // prints ipsch
     NSString *addAtLast = @"ay";
-//    NSMutableString *pigLatinStringLast = [pigLatinString stringByAppendingString:addAtLast];
     NSString *result = [[NSString alloc] init];
     
     for (NSString *word in words){
@@ -35,8 +29,6 @@
         NSRange myRangeLast = NSMakeRange(myRange.location, word.length - myRange.location);
         NSRange myRangeFirst = NSMakeRange(0, myRange.location);
         
-        substring = [word substringWithRange:myRange];
-        // prints i
         substringFirst = [word substringWithRange:myRangeLast];
         // prints ips
         substringLast = [word substringWithRange:myRangeFirst];
