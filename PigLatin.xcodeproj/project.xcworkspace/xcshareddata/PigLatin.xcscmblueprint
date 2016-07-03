@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "218474364642AABFDBB7AA25CC99164D1B29878A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "218474364642AABFDBB7AA25CC99164D1B29878A" : 0,
+    "198491D51858A14A51297DC31D2AE31251C02D6B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "94AD317A-7AF2-4703-8392-C197D4EE3576",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "218474364642AABFDBB7AA25CC99164D1B29878A" : "PigLatin\/",
+    "198491D51858A14A51297DC31D2AE31251C02D6B" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PigLatin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PigLatin.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeffeom\/obj_c.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "198491D51858A14A51297DC31D2AE31251C02D6B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jeffeom\/pigLatin.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "218474364642AABFDBB7AA25CC99164D1B29878A"
+    }
+  ]
+}

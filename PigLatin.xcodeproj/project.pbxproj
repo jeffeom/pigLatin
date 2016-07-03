@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		40009A261D271A9500371428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40009A251D271A9500371428 /* main.m */; };
-		404D6D7E1D271AE500A40F56 /* stringReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D6D7D1D271AE500A40F56 /* stringReader.m */; };
 		404D6D811D271B1C00A40F56 /* inputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D6D801D271B1C00A40F56 /* inputCollector.m */; };
 		404D6D841D271C0000A40F56 /* NSString+stringByPigLatinization.m in Sources */ = {isa = PBXBuildFile; fileRef = 404D6D831D271C0000A40F56 /* NSString+stringByPigLatinization.m */; };
 /* End PBXBuildFile section */
@@ -28,8 +27,6 @@
 /* Begin PBXFileReference section */
 		40009A221D271A9500371428 /* PigLatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PigLatin; sourceTree = BUILT_PRODUCTS_DIR; };
 		40009A251D271A9500371428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		404D6D7C1D271AE500A40F56 /* stringReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringReader.h; sourceTree = "<group>"; };
-		404D6D7D1D271AE500A40F56 /* stringReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stringReader.m; sourceTree = "<group>"; };
 		404D6D7F1D271B1C00A40F56 /* inputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputCollector.h; sourceTree = "<group>"; };
 		404D6D801D271B1C00A40F56 /* inputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inputCollector.m; sourceTree = "<group>"; };
 		404D6D821D271C0000A40F56 /* NSString+stringByPigLatinization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+stringByPigLatinization.h"; sourceTree = "<group>"; };
@@ -67,8 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				40009A251D271A9500371428 /* main.m */,
-				404D6D7C1D271AE500A40F56 /* stringReader.h */,
-				404D6D7D1D271AE500A40F56 /* stringReader.m */,
 				404D6D7F1D271B1C00A40F56 /* inputCollector.h */,
 				404D6D801D271B1C00A40F56 /* inputCollector.m */,
 				404D6D821D271C0000A40F56 /* NSString+stringByPigLatinization.h */,
@@ -136,7 +131,6 @@
 				404D6D841D271C0000A40F56 /* NSString+stringByPigLatinization.m in Sources */,
 				40009A261D271A9500371428 /* main.m in Sources */,
 				404D6D811D271B1C00A40F56 /* inputCollector.m in Sources */,
-				404D6D7E1D271AE500A40F56 /* stringReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
