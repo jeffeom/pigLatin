@@ -13,7 +13,6 @@
 -(NSString *)stringByPigLatinization{
     
     NSArray *words = [self componentsSeparatedByString:@" "];
-    NSMutableArray *characters = [[NSMutableArray alloc] init];
     NSCharacterSet *vowels = [NSCharacterSet characterSetWithCharactersInString:@"aeiou"];
     NSString *substring;
     // prints i
@@ -31,9 +30,6 @@
     //tokenization
     // "Kale Chips"
     // to "Kale" "Chips"
-        for( int i = 0; i < [word length]; i++){
-            [characters addObject:[NSString stringWithFormat:@"%c",[word characterAtIndex:i]]];
-        }
         
         NSRange myRange = [word rangeOfCharacterFromSet:vowels];
         NSRange myRangeLast = NSMakeRange(myRange.location, word.length - myRange.location);
