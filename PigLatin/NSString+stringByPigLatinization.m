@@ -46,17 +46,13 @@
         substringLast = [word substringWithRange:myRangeFirst];
         // prints ch
         pigLatinString = [substringFirst stringByAppendingString: substringLast];
-//        pigLatinString = [pigLatinString stringByAppendingString: @" "];
-        // prints ipsch
-//        addAtLast = @"ay";
-//        
-//        pigLatinStringLast = [pigLatinString stringByAppendingString:addAtLast];
         
-//        NSLog(@"%@", pigLatinString);
         result = [result stringByAppendingString:pigLatinString];
-        
+        result = [result stringByAppendingString:addAtLast];
+        result = [result stringByAppendingString:@" "];
+    
     }
-    return [result stringByAppendingString: addAtLast];
+    return result;
 }
 
 @end
